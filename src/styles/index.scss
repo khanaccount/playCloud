@@ -1,0 +1,124 @@
+@import "./normalize.scss";
+@import "./variables.scss";
+
+@font-face {
+    font-family: "Crimson Text";
+    src: url("./fonts/CrimsonText-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Gotham Pro";
+    src: url("./fonts/gothampro_medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Helvetica Neue CY";
+    src: url("./fonts/helveticaneuecyr-light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Helvetica Neue CY";
+    src: url("./fonts/helveticaneuecyr-medium1.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Helvetica Neue CY";
+    src: url("./fonts/helveticaneuecyr-roman.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Monument Extended";
+    src: url("./fonts/MonumentExtended-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Muller";
+    src: url("./fonts/Muller-Trial-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Muller";
+    src: url("./fonts/Muller-Trial-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Muller";
+    src: url("./fonts/Muller-Trial-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Muller";
+    src: url("./fonts/Muller-Trial-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "ofont.ru Bowler";
+    src: url("./fonts/ofont.ru_Bowler.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+* {
+    font-family: "Muller", "Gotham Pro", "ofont.ru Bowler", "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: $textColorBlack;
+    background-color: $BgWhite;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    background-color: $BgWhite;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    line-height: 150%;
+  }
+  
+  .main {
+    flex: 1;
+  }
+  
+  .container {
+    max-width: 1430px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  
+  
